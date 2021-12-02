@@ -28,6 +28,7 @@ td {
 td.title {
 	font-weight: bold;
 	font-size: 1.3em;
+	color: #03dac5d2;
 }
 
 td.search {
@@ -56,20 +57,22 @@ td.right {
 /* Regions */
 .info {
 	/* light grey */
-	color: #787878;
+	color: #777;
 }
 
 .metadata {
 	/* redish = "Cayenne" in crayons */
-	color: #800000;
+	color: #03dac5d2;
 }
 
 .abstract {
 /*	text-align: justify;*/
+	color: #777;
 }
 
 .annote {
 /*	text-align: justify;*/
+	color: #777;
 }
 
 .skimNotes {
@@ -80,7 +83,7 @@ td.right {
 
 /* Fields */
 .authors{
-	
+	color:#777;
 }
 
 .container {
@@ -89,6 +92,12 @@ td.right {
 
 .date {
 	font-weight: bold;
+	color:#777;
+}
+}
+
+.citeKey{
+	color:#777;
 }
 
 .fieldName {
